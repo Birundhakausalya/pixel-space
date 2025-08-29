@@ -17,11 +17,11 @@
     "build:server": "vite build --config vite.config.server.ts",
     "start": "node dist/server/node-build.mjs",
     "test": "vitest --run",
-    "format.fix": "prettier --write .",
+    "format:fix": "prettier --write .",
     "typecheck": "tsc"
   },
   "dependencies": {
-    "dotenv": "^16.4.5",
+    "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "lucide-react": "^0.542.0",
     "zod": "^3.25.76"
